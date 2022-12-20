@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknologi Digital</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar fixed">
+        <!-- <div class="logo">
+            <a href="#"><img src="./img/logo.png" alt="logo"></a>
+        </div> -->
+        <ul class="nav-links">
+            <a href="index.html"><li> Home</li></a>
+            <a class="nav-link" href="#blog"> <li class="active">Blog</li></a>
+            <!-- <li><a href="#"></a>Dokumentasi</li>
+            <li><a href="#"></a>Media</li> -->
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+
+        <section class="post-header">
+            <div class="header-content post-container">
+
+                <!-- Back To Home -->
+                <a href="index.html" class="back-home">Back To Home</a>
+                <!-- Title -->
+                <h1 class="header-title">Teknologi Digital</h1>
+                <img src="img/simon-lee-hbFKxsIqclc-unsplash.jpg" alt="" class="header-img">
+
+            </div>
+        </section>
+
+        <section class="post-content post-container">
+            <h2 class="sub-heading">Teknologi Digital.</h2>
+            <p class="post-text">Pada tahun 2021, teknologi digital lebih banyak diaplikasikan dalam dunia nyata daripada sebelumnya.Teknologi ini bahkan ikut membantu memecahkan masalah yang diciptakan oleh pandemi.</p>
+            <h2 class="sub-heading">Narasi atau Analisis.</h2>
+            <p class="post-text">Teknologi pencatatan 3D printing atau pencetakan terus di manfaatkan dengan cara-cara yang Inovatif pada tahun 2021 di Italia teknologi itu di digunakan untuk menciptakan sebuah mahakarya</p>
+            <p class="post-text">Teknisi pemindai patung David karya Michael Angelo pada Desember 2020, Data yang di peroleh untuk mencetak replika patung tersebut 
+                patung itu di pamerkan di dubai expo, yang baru di gelar pada october 2021 karena pandemi.
+            </p>
+            <p class="post-text">Kehadiran patung itu menghadirkan kontroversi karena sebagian besar penampakanya yang telanjang disembunyikan dari pandangan.</p>
+            <p class="post-text">Pencetakan 3Dimensi digunakan untuk membangun rumah tahun ini. Di California digunakan untuk menciptakan rumah berkelanjutan dengan biaya terjangkau. Biro desain asal Inggris, WATG merilis sejumlah gambar rancangan rumah masa depan.</p>
+        </section>
+
+        <section class="share post-container">
+            <span class="share-title">Share this article</span>
+            <div class="social">
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+            </div>
+        </section>
+  
+
+    <!-- event -->
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    
+</body>
+</html>

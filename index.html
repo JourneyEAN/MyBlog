@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey-ean</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar fixed">
+        <!-- <div class="logo">
+            <a href="#"><img src="./img/logo.png" alt="logo"></a>
+        </div> -->
+        <ul class="nav-links">
+            <a href="#"><li class="active">Home</li></a>
+            <a class="nav-link" href="#blog"> <li>Blog</li></a>
+            <!-- <li><a href="#"></a>Dokumentasi</li>
+            <li><a href="#"></a>Media</li> -->
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+
+    <header>
+        <div class="header-content">
+            <h2>Welcome To My Blog</h2>
+            <div class="line"></div>
+            <p>Nama : Eko Ari Nugroho <br>
+                <br>
+                NIM : 5520122022
+                <br>
+                Prodi: Informatika
+            
+            </p>
+            <div class="line"></div>
+            <h1>Universitas Indonesia Mandiri</h1>
+            <!-- <a href=" https://journeyean.github.io/resume-eanugroho/" class="ctn">Tentang Saya</a> -->
+            <!-- <a href="#" class="ctn">Kunjungi</a> -->
+        </div>
+    </header>
+
+    <!-- <section class="profile">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Profile</h1>
+                <div class="line"></div>
+                <p>Nama : Eko Ari Nugroho <br>
+                    <br>
+                    NIM : 5520122022
+                    <br>
+                    Prodi: Informatika
+                
+                </p>
+                <a href=" https://journeyean.github.io/resume-eanugroho/" class="ctn">Tentang Saya</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-galery">
+                    <img src="./img/img3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="blog">
+        <div class="title">
+            <h1>Narasi atau Analisis</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/simon-lee-hbFKxsIqclc-unsplash.jpg" alt="">
+                <h4>Teknologi Digital</h4>
+                <p>Pada tahun 2021, teknologi digital lebih banyak diaplikasikan dalam dunia nyata daripada sebelumnya.Teknologi ini bahkan ikut membantu memecahkan masalah yang diciptakan oleh pandemi.</p>
+                <a href="teknologidigital.html" class="btn">Lihat</a>
+
+            </div>
+            <div class="col">
+                <img src="./img/teknologi.jpg" alt="">
+                <h4>Teknologi Digital</h4>
+                <p>Pada tahun 2021, teknologi digital lebih banyak diaplikasikan dalam dunia nyata daripada sebelumnya.Teknologi ini bahkan ikut membantu memecahkan masalah yang diciptakan oleh pandemi.</p>
+                <!-- <a href="#" class="btn">Lihat</a> -->
+
+            </div>
+        </div>
+    </section>
+
+    <div class="footer container">
+        <p>Blog Journey. EAN.</p>
+        <div class="social">
+            <a href="https://linkedin.com/in/eanugroho-305138241"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://www.instagram.com/journey_ea/"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.journeyofficial.info/"><i class='bx bx-store' ></i></a>
+        </div>
+    </div>
+    <!-- event -->
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    
+</body>
+</html>
